@@ -7,3 +7,5 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+# もしfern_simライブラリを別ディレクトリに分割するなら、src/bin側のビルド・実行には以下を追加で記述が必要
+# fern_sim = { path = "../fern_sim" }
