@@ -1,3 +1,5 @@
+use std::ops::Range;
+
 pub struct Fern {
     pub size: f64,
     pub growth_rate: f64
@@ -16,3 +18,7 @@ pub fn run_simuration(fern: &mut Fern, days: usize) {
     }
 }
 
+pub fn overlap(r1: Range<usize>, r2: Range<usize>) -> bool {
+    r1.start < r1.end && r2.start < r1.end &&
+        r1.start < r2.end && r2.start < r1.end
+}
