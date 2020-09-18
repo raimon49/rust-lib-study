@@ -3,8 +3,12 @@
 ## Run
 
 ```bash
+# Run using lib app
 $ cargo build
 $ cargo run --bin efern
+
+# Run doctest
+$ cargo test --doc
 ```
 
 ## Environment
