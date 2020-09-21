@@ -9,3 +9,6 @@ edition = "2018"
 [dependencies]
 # もしfern_simライブラリを別ディレクトリに分割するなら、src/bin側のビルド・実行には以下を追加で記述が必要
 # fern_sim = { path = "../fern_sim" }
+
+# GitHub Enterpriseなどcreates.ioで公開されていないがGitホスティングされているライブラリは以下のように指定
+# fern_sim = { git = "https://git.exeample.com/fern_sim.git", rev = "528f91c" }
