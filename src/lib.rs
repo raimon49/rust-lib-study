@@ -25,6 +25,7 @@ pub fn run_simuration(fern: &mut Fern, days: usize) {
 ///     assert_eq!(fern_sim::overlap(1..5, 101..105), false);
 pub fn overlap(r1: Range<usize>, r2: Range<usize>) -> bool {
     // 4スペースインデントまたは```で囲まれたコードスニペットはdoctestとして扱われる
+    // また、```no_runで囲まれたコードブロックはコンパイルされるがdoctestで実行されない
     r1.start < r1.end && r2.start < r2.end &&
         r1.start < r2.end && r2.start < r1.end
 }
