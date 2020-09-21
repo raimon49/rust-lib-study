@@ -12,3 +12,4 @@ edition = "2018"
 
 # GitHub Enterpriseなどcreates.ioで公開されていないがGitホスティングされているライブラリは以下のように指定
 # fern_sim = { git = "https://git.exeample.com/fern_sim.git", rev = "528f91c" }
+# revの他にtag/branchも指定できる
