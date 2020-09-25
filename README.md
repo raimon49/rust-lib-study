@@ -1,5 +1,7 @@
 # rust-lib-study
 
+![Rust](https://github.com/raimon49/rust-lib-study/workflows/Rust/badge.svg)
+
 ## Run
 
 ```bash
